@@ -1,0 +1,264 @@
+/*CSS file*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+ul{
+	list-style: none;
+	text-decoration: none;
+}
+.dropbtn {
+
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  }
+   .list-style ul li {
+	  list-style: none;
+	  text-decoration: none;
+  }
+  
+ 
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  
+  
+  .show {display: block;}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+
+
+
+.logos img{
+	border-radius: 50%;
+	
+}
+figcaption{
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+body{
+	background-color:white;
+
+}
+.logo{
+	padding-left:10px;
+	
+	
+}
+
+.fa-user{
+	border-radius:50;
+	padding-left: 40px;
+	
+
+}
+  input{
+    width: 440px;
+	margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+option{
+	height:20px;
+}
+#main-wrapper{
+	background:url('/imgs/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg');
+	border-radius : 10px;
+	background-color: white;
+	border: 3px solid #f1f1f1;
+	width: 500px;
+	transform: translateY(200px);
+	margin-bottom:60px ;
+	margin: 0 auto;
+}
+.inner_container{
+	width:450px;
+	margin:0 auto;
+}
+.login_button {
+    background-color: #4CAF50;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+}
+.register_btn{
+	background-color: #3498db;
+    color: white;
+	margin-top:10px;
+	margin-bottom:15px;
+	padding:10px;
+    width: 100%;
+	font-size:16px;
+	font-weight: bold;
+	
+}
+.back_btn{
+	margin-top:10px;
+	color: white;
+	margin-bottom:15px;
+    padding: 10px;
+    background-color: #e67e22;
+}
+.logout_button{
+	background-color: #c0392b;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+}
+
+.sign_up_btn {
+	background-color: #3498db;
+    color: white;
+	 padding:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+    width: 100%;
+	font-size:16px;
+	font-weight: bold;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.container {
+    margin: 16px;
+	width:100%;
+}
+#box{width:70%;height:100px;border:1px ;
+background-color: white;
+
+transform:translateY(250px);
+margin-left: 480px;
+height: 600px;
+}
+#fileupload{
+	transform:translateX(450px);
+}
+#upload-button{
+transform:translateY(220px);
+margin-left: 450px;
+}
+.inbox{
+	border:none
+}
+
+.open-button {
+	
+	background-color: #555;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 23px;
+	right: 28px;
+	width: 280px;
+  }
+  
+ 
+  
+  
+  .chat-popup {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	border: 3px solid #f1f1f1;
+	z-index: 9;
+  }
+  
+  
+  .form-container {
+	max-width: 300px;
+	padding: 10px;
+	background-color: white;
+  }
+  
+  .form-container textarea {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+	resize: none;
+	min-height: 200px;
+  }
+  
+  
+  .form-container textarea:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  
+  
+  .form-container .btn {
+	background-color: blue;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom:10px;
+	opacity: 0.8;
+  }
+  
+  
+  .form-container .cancel {
+	background-color:grey;
+  }
+  
+
+  .form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+  }
+ 
+
+
+	  

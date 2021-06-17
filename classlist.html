@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style copy1.css">
+    <style>
+        *{
+          
+          font-family: 'Poppins', sans-serif;
+      
+      }
+      #box{
+
+        width:1500px;
+      }
+      
+             .container{
+               
+          position:relative;
+      background-image: url('imgs/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg');
+      height: 100vh;
+      background-size: right top cover;
+      width:100%;
+      
+      }
+      body{
+        height: 30vh;
+          font-family: 'Poppins', sans-serif;
+      }
+      .container .contain-list{
+        position: fixed;
+        height: 100vh;
+        width: 280px;
+        background: black;
+        box-shadow: 0 0 6px rgba(255, 255, 255, 0.1);
+        opacity: 0.8;
+      }
+      h2{
+        color: #fff;
+      font-size:20px;
+      text-decoration: none;
+      }
+      .container figcaption{
+        width:100%;
+        height: 200px;
+        
+      }
+      figcaption{
+        color : #fff;
+        font-size: 25px;
+        font-weight: 500;
+      
+        line-height:60px;
+        text-decoration: none;
+      }
+      .container .list-type{
+        top: 80px;
+        width:100%;
+      }
+      .container .list-type li{
+        margin-top: 6px;
+        padding: 14px 20px;
+      }
+      .container .list-type i{
+        color: #fff;
+        font-size: 20px;
+        padding-right: 14px 20px;
+      }
+      
+      .container .list-type a{
+      color: #fff;
+      font-size:20px;
+      text-decoration: none;
+      }
+      .container .list-type li:hover{
+        border-left: 1px solid #fff;
+        box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+      }
+      .res-tab{
+        transform: translateY(160px);
+        padding-left: 200px;
+      }
+      h1{
+        color:black;
+        font-size:40px;
+        text-align: center;
+      }
+       </style>
+    <title>Class Register</title>
+
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="contain-list">
+            <div class="navbar">
+              <div class="logo">
+                  <br>
+                  <div class="logos">
+                  <img src="imgs/unnamed.jpg" alt="Nonophela Imfundo" width="90">
+              </div>
+                  <figcaption id="img-caption"><span>Nono</span>phela Imf<span>undo</span></figcaption>
+              </div>
+      
+          </div>
+      
+                 
+          <div class="list-type">
+                <ul>
+       <i class="fa fa-user" style="font-size:50px;color:white"></i>
+      
+          
+        <h2>Name & Surname</h2>
+      <br>
+      <br>
+      
+       
+              <div class="dropdown">
+             <li>    <a  href="main_page.html" onclick="myFunction()" class="dropbtn">ALL WORK</a></li>
+                  <div id="myDropdown" class="dropdown-content">
+                    <input type="submit" value="Assignment" class="assi" onclick="assign()">
+                    <input type="submit" value="Classworks" class="classwork" onclick="classworks()"> 
+                    <input type="submit" value="Homeworks" class="home" onclick="home()">
+                    <input type="submit" value="notes" class="note" onclick="notes()">
+      
+                  </div>
+              </div>
+      <br>
+      <br>
+           <li> <i class="fa fa-list" style="font-size:24px">  <a href="classlist.html"><b> Class List</b></a></i></li>
+              <br>
+              <br>
+          <li>    <i class="fa fa-envelope" style="font-size:24px"> <b> <a href="#"><b>Inbox</b></a></b></i></li>
+              <br>
+              <br>
+             <li> <i class="fa fa-calendar" style="font-size:24px"> <a href='calender.php'> <b> Calender</b></a></i></li>
+              <br>
+              <br>
+        <li>     <i class="fa fa-video-camera" style="font-size:24px">  <a href="https://meet.google.com/"><b>Join Google Meet</b></a></i></li> 
+              <br>
+              <br>
+            <li> <i class="fa fa-sign-out" style="font-size:24px"> <b><a href="index.php">Log out</a></b></i></li> 
+          </div>
+            </ul>
+        
+          </div> 
+      
+      <div id="box">
+         <h1>Class Register</h1>   
+<div class="res-tab">
+    <table>
+        <col style="width:40%">
+	<col style="width:30%">
+	<col style="width:30%">
+    
+        <tbody>
+            
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+      
+            <tr>
+                <td>Mabotle</td>
+                <td>Pienaar</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Sipho</td>
+                <td>Tywele</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Sipho</td>
+                <td>Tywele</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                
+            </tr>
+            <tr>
+                <td>Sipho</td>
+                <td>Tywele</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Mabotle</td>
+                <td>Pienaar</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</div>   
+<div class="message">
+ 
+</div>
+
+    </div>
+
+<div id="close">
+<button class="open-button" onclick="openForm()">chats</button>
+</div>
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Class Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script> 
+    </body>
+    </html>
